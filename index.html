@@ -50,7 +50,7 @@
           <a class="nav-link js-scroll-trigger" href="#education">Education</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Other Interests & Achievements</a>
+          <a class="nav-link js-scroll-trigger" href="#publications">Publications</a>
         </li>
       </ul>
     </div>
@@ -242,8 +242,6 @@
             AWS CodeDeploy
           </li>
         </ul>
-
-
       </div>
     </section>
 
@@ -252,7 +250,95 @@
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
 
-        <h2 class="mb-5">Professional Experience</h2>
+        <h2 class="mb-5">Experience</h2>
+
+        
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Machine Learning Engineer</h3>
+            <div class="subheading mb-3">Glamorous AI : An X-Chem Subsidiary</div>
+            <p>An AutoMl SaaS platform allowing drug discovery teams to train state-of-the-art AI models on their data to reduce time and
+              costs associated with conventional screening. A wide range of different models and featurisations are screened and optimised to
+              achieve the best performing model for the client's data.</p>
+            
+              <div class="subheading mb-4">Key Responsibilities</div>
+              <ul>
+                <li>Productionizing AI models and tooling specialised for chemistry to run at scale</li>
+                <li>Maintaining AI prediction pipelines, internal data lakehouse, and associated APIs</li>
+                <li>Following TDD, striving for 90% test coverage in all projects worked on</li>
+                <li>Instigating and organising a weekly meetup for the researchers to present problems and findings</li>
+                <li>Conducting research and benchmarking into new AI methodologies for the drug discovery process</li>
+                <li>Acting as scrum master in fortnightly agile development sprints</li>
+                <li>Conducting live demonstrations for clients as an SME during product onboarding sessions</li>
+              </ul>
+
+              <div class="subheading mb-4">Datastore</div>
+              <ul>
+                <li>Independently planned and implemented the entire private data lakehouse to reduce computation times during AI training and inference by taking user input and transforming into persisted features for ML models (Python, DuckDB, SQL, Pyarrow, SQLAlchemy, S3, RDS)</li>
+                <li>Designed the datastore to be a user-friendly client library and tool, ensuring full adoption across research and engineering teams</li>
+                <li>Reduced prediction pipeline run times by half</li>
+              </ul>
+
+              <div class="subheading mb-4">Molecular Docking Simulation Pipeline</div>
+              <ul>
+                <li>Lead the design and productionization of a molecular docking simulation pipeline to pre-filter large molecular databases for high throughput drug candidate screenings (Python, Docker, Metaflow, Argo, Poetry, Pytest, SQLAlchemy)</li>
+                <li>Completed pipeline could process hundreds of thousands of molecules in under 2 hours while minimizing costs through considered compute instance collection</li>
+              </ul>
+
+              <div class="subheading mb-4">Similarity Screening Pipeline</div>
+              <ul>
+                <li>Designed and implemented a large scale pipeline using EKS cluster for a molecular fingerprint similarity calculation achieving 2.5 billion similarity calculations in 10 minutes (Python, Docker, Metaflow, Pyarrow, Poetry, Pytest)</li>
+              </ul>
+
+              <div class="subheading mb-4">Domain Applicability</div>
+              <ul>
+                <li>Led the research, development, and optimization of several unsupervised approaches to identify when the domain of the trained model doesn't match the domain of the prediction dataset (Python, Scikit-learn, Poetry, Pytest, Numpy, Optuna)</li>
+                <li>Research was conducted on internal chemical datasets resulting in correctly identifying 66% of benchmark AI model prediction errors</li>
+              </ul>
+
+            </div>
+            <div class="resume-date text-md-right">
+            <span class="text-primary">May 2022 - Current</span>
+          </div>
+        </div>
+
+        
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Machine Learning Engineer Intern</h3>
+            <div class="subheading mb-3">Glamorous AI : An X-Chem Subsidiary</div>
+            <ul>
+              <li>Conducted market analysis to identifying three further market areas for potential expansion with findings presented to
+              stakeholders</li>
+              <li>Implemented several python packages to aid researchers in the drug discovery process including: visualisation of chemical library overlap; unified data retrieval pipelines from multiple public data sources; and a wide collection of metrics for molecular similarity <b>(Python, Docker, github actions, Conda, Scikit-learn, Pandas, Dask, Numpy, Rdkit, Requests)</b></li>
+              <li>Researched various state of the art multi-input deep neural network architectures for predicting molecule binding affinity in different
+              protein targets</li>
+              <li>Presented summary of literature review, model analysis, and benchmark results to stakeholders</li>
+              <li>Identified and implemented the best model based on predictive performance and viability of implementation <b>(Python,
+              Pytorch, AWS, Docker, Conda)</b></li>
+            </ul>
+            </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">October 2021 - April 2022</span>
+          </div>
+        </div>
+
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">IKEEP Collaborator</h3>
+            <div class="subheading mb-3">Co-Forest Ltd</div>
+            <ul>
+              <li> Worked as part of three person intrapreneurial knowledge exchange program between local business and PhD researchers </li>
+              <li> Project involved creating a plan to establish sense of community within Co-forest public and industrial clients </li>
+              <li> The outcomes of this collaboration included the identification of company goals in order to create content for specific customers and the drafting of relevant promotional materials. </li>
+            </ul>
+            </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">February 2021 - March 2021</span>
+          </div>
+        </div>
+
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
@@ -271,119 +357,6 @@
           </div>
         </div>
 
-        <h2 class="mb-5">Development Experience</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Significant Contributions</h3>
-            <ul>
-              <li> Over 1.5 years of scientific programming and data analysis experience </li>
-              <li> Significant refactoring and modularisation of in house code during Intense three week collaboration with the mathematics department on novel material screening approaches</li>
-              <li> Currently assisting development of novel code base for Azure cloud servers to conduct large scale material screenings</li>
-              <li> Have worked with remote, linux, HPC systems for monte carlo simulations</li>
-              <li> Routinely help colleagues with programming / data analysis queries</li>
-            </ul>
-            </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">September 2019 - Ongoing</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Personal Projects</h3>
-            <ul>
-              <li><a style="color:blue" href="https://github.com/Bundaberg-Joey/MTGINDEX" target="_blank"> mtgindex </a>: Engineering and conglomeration of the popular mtgjson dataset to perform financial benchmark assessment of prices</li>
-              <li><a style="color:blue" href="https://github.com/Bundaberg-Joey/MLSCRATCH" target="_blank"> mlscratch </a> : Implementing machine learning algorithms in numpy to continue personal development in this area</li>
-              <li><a style="color:blue" href="https://github.com/Bundaberg-Joey/Vigenere-Cypher" target="_blank"> vigenere cypher </a> : Command line tool to easily read and write journal entries encrypted with the vigenere cipher</li>
-              <li><a style="color:blue" href="https://github.com/Bundaberg-Joey/IR_analyser" target="_blank"> ir assignment </a> : Command line tool to help chemists assign the results of Infra Red spectroscopy</li>
-            </ul>
-            </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">January 2018 - Ongoing</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Other</h3>
-            <ul>
-              <li> Member of the teaching team for University research software skills course including: Python programming (including OOP), data analysis, version control, and continuous integration</li>
-              <li> Attended the 2019 HPC Autumn Academy at Cambridge University, a 2 week course on writing efficient and parallel C++ code for distributed systems</li>
-              <li> Have completed AndrewNG's Machine Learning course on coursera, implementing the discussed algorithms in python using base libraries</li>
-            </ul>
-            </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">September 2018 - Ongoing</span>
-          </div>
-        </div>
-
-        <h2 class="mb-5">Research Experience</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">PhD · Chemical Engineering </h3>
-            <div class="subheading mb-3">Centre for Sustainable and Circular Technologies (University of Bath) </div>
-            <div></div>
-              <ul>
-                <li> I am pursuing a PhD which combines Monte Carlo simulation and novel machine learning techniques to develop software tools for large scale material screenings </li>
-                <li> The machine learning algorithms being developed use data collected from the Monte Carlo simulation of porous materials with gas adsorbates and allow for "in situ" understanding of the ideal adsorbent properties </li>
-                <li> This EPSRC funded PhD is supervised by members of the Chemical Engineering, Mathematics departments and a University of Bath Research Software Engineer </li>
-                <li> Future work currently looks at the packaging of the algorithm into a tool which is made available to the scientific community with appropriate best practises and development of other computational tools to facilitate porous materials research </li>
-                <li> More select Monte Carlo simulations will also continue to be conducted as part of this PhD either as validation or further investigation of novel discoveries </li>
-              </ul>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">September 2019 - Currently</span>
-          </div>
-
-        </div>
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">MRes Research Project</h3>
-            <div class="subheading mb-3">University of Bath</div>
-            <ul>
-              <li> Conducted an 8 month research project, performing proof of concept studies on a novel machine learning algorithm to streamline high throughput, Monte Carlo screenings</li>
-              <li> The core skills developed during this project were: working with python day to day (particularly the anaconda package management, matplotlib, numpy, pandas, and sklearn libraries), and running Monte Carlo simulations of porous materials on a HPC Linux system</li>
-              <li> Additionally,  this work allowed me to develop my scientific programming skills; work within a HPC Linux system; bash scripting, and data visualisation</li>
-              <li> The result of this work was a proof of concept study which allowed for the "real time" analysis of 69,000 porous structures, resulting in the top 100 performing materials to be identified after assessing only 0.65 % of all the structures by Monte Carlo simulation</li>
-            </ul>
-            </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">September 2018 - September 2018</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">MRes Research Project</h3>
-            <div class="subheading mb-3">Imperial College London</div>
-            <ul>
-              <li> Conducted an intensive, year-long, independent research project, where I successfully demonstrated biorenewable materials could be utilised as a synthetic precursor for solar cells</li>
-              <li> This research made use of DFT calculations and novel synthetic strategies to investigate and synthesise target materials</li>
-              <li> I was given a high degree of autonomy while conducting this research requiring me to develop solutions to large and small problems daily, develop multiple research plans to the research target and fully plan my work well in advance to ensure all required materials were in stock</li>
-            </ul>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">September 2016 - September 2017</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">BSc Research Project</h3>
-            <div class="subheading mb-3">University of St Andrews</div>
-            <ul>
-              <li> The results of this project were published in conjunction with other group research: <i>Org. Biomol. Chem., 2016, 14, 10023 - 10030</i> , using organic synthesis to valorise biorenewable aromatic feedstocks for fine chemical production</li>
-              <li> Tenacious work ethic was developed throughout the project in order to keep to deadlines and ensure a high standard of research was conducted</li>
-            </ul>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">September 2015 - April 2016</span>
-          </div>
-        </div>
-
-      <h2 class="mb-5">Work Experience</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
@@ -414,15 +387,26 @@
           </div>
         </div>
 
-      </div>
-
-    </section>
-
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="education">
       <div class="w-100">
         <h2 class="mb-5">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">The University of Bath · Centre for Sustainable and Circular Technologies</h3>
+            <div class="subheading mb-3">PhD · Chemical Engineering</div>
+            <div></div>
+              <ul>
+                <li> Developed methodologies for Bayesian optimisation based active learning for reduced cost high throughput screenings</li>
+                <li> Also developed novel featurisations for materials screening utilising graph convolutions</li>
+              </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">October 2019 - March 2023</span>
+          </div>
+        </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
@@ -468,40 +452,18 @@
           </div>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Further Learning</h3>
-            <div></div>
-              <ul>
-                <li> Attended an internationally recognised 2 week course on molecular simulation in Amsterdam (2020)</li>
-                <li> Participated in a 2 day course on Experimental Design given by <i>"Catalysis Consulting"</i></li>
-                <li> A day long workshop on the fundamentals of intellectual property given by <i>"Abel & Imray"</i> patent attorneys</li>
-                <li> Have received a total of 2 weeks training from <i>"Science Made Simple"</i> on how to engage with memebers of the public about scientific research</li>
-                <li> Received an intense day long workshop on effective project management and workflows at the start of my PhD</li>
-              </ul>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Ongoing</span>
-          </div>
-        </div>
-
       </div>
     </section>
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="publications">
       <div class="w-100">
-        <h2 class="mb-5">Other Interests & Achievements </h2>
+        <h2 class="mb-5">Publications</h2>
         <ul>
-          <li> "Race 2 Budapest" Charity Hitchhike Logistics Officer (2015)</li>
-          <li> University of St Andrews Jujitsu Club Treasurer & Equipment Officer (2013-2015)</li>
-          <li> Scottish Institute for Enterprise Get "Enterprising" National winner (2015)</li>
-          <li> "Race 2 Berlin" charity hitchhike race from Glasgow to Berlin (2014)</li>
-          <li> Bouldering & Rock Climbing (a long long time)</li>
-          <li> Training in numerous martial arts {Jujitsu, KravMaga, Systema, Taekwondo, Kickbxing}</li>
-          <li> Enjoying all the films I can get my hands on</li>
-          <li> Playing bass guitar</li>
+          <li>“Autonomous Exploration and Identification of High Performing Adsorbents using Active Learning” : ChemRxiv:10.26434/ChemRxiv.14555706.V1</li>
+          <li>“Bayesian Screening: Multi-test Bayesian Optimization Applied to in silico Material Screening” : arXiv:2009.05418</li>
+          <li>“The synthesis of Hibbert ketone structures in technical lignins” : Org. Biomol. Chem., 2016, 14, 10023 - 10030</li>
         </ul>
       </div>
     </section>
